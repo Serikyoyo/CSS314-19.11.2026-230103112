@@ -1,0 +1,68 @@
+{
+  "GITHUB_USERNAME": "Serikyoyo",
+  "INSTANCE_SEED": 5097653967337590224,
+  "gpu_name": "Tesla T4",
+  "gpu_uuid": "GPU-93b12cac-f6e1-5655-a969-96f6b5a3569c",
+  "mpi_ranks": 4,
+  "cart_dims": [
+    2,
+    2
+  ],
+  "global_grid": [
+    512,
+    512
+  ],
+  "local_interior_grid": [
+    256,
+    256
+  ],
+  "local_padded_grid": [
+    258,
+    258
+  ],
+  "steps": 400,
+  "dx": 0.001949317738791423,
+  "dy": 0.001949317738791423,
+  "dt": 3.166533038972422e-06,
+  "dt_cfl_max": 3.958262939876528e-06,
+  "kappa_min": 0.08000585961038782,
+  "kappa_max": 0.23999414038961217,
+  "lambda_damp": 0.15,
+  "serialized_ms": 1490.0841,
+  "overlapped_ms": 2031.2515,
+  "speedup": 0.7336,
+  "parity_max_diff": 0.0,
+  "ptx_audit_passed": true,
+  "ptx_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "energy_trace": [
+    {
+      "step": 0,
+      "global_energy": 0.1294723668481478,
+      "l2_norm": 0.3215757469506889
+    },
+    {
+      "step": 100,
+      "global_energy": 0.12945604376120157,
+      "l2_residual": 10.668812218000065
+    },
+    {
+      "step": 200,
+      "global_energy": 0.1294439014652482,
+      "l2_residual": 10.27590183099122
+    },
+    {
+      "step": 300,
+      "global_energy": 0.1294322814363741,
+      "l2_residual": 9.911116926750733
+    },
+    {
+      "step": 400,
+      "global_energy": 0.12942073294945583,
+      "l2_residual": 9.57121352161355
+    }
+  ]
+}
